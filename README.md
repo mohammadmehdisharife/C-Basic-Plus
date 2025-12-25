@@ -42,7 +42,7 @@ The language is currently at <strong>version 1.0.0</strong> and is licensed unde
 <pre><code class="language-cpp">
 //This is Print Text
 print("Hello World\n");
-sleep(1.0)
+sleep(1.0);
 print(":) " & "happy\n");
 
 system("pause");
