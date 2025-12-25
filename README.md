@@ -38,10 +38,10 @@ The language is currently at <strong>version 1.0.0</strong> and is licensed unde
 
 
 
-
-<pre><code class="language-cpp">
-//This is Print Text
-print("Hello World\n");
+<h2>Simple Program</h2>
+<pre><code>
+//This is Simple Program
+print("Hello World\nThis Program Running in %os%\n");
 sleep(1.0);
 print(":) " & "happy\n");
 
@@ -57,4 +57,7 @@ exit();
 
 
 
-
+<h2>Command to Run Code</h2>
+<pre><code>
+cbp -file app.cbp
+</code></pre>
