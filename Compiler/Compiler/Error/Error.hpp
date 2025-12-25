@@ -1,0 +1,6 @@
+#ifndef ERROR_HPP
+#define ERROR_HPP
+#include <string>
+using namespace std;
+void Error(const string& msg);
+#endif
