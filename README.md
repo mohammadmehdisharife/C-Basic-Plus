@@ -29,6 +29,7 @@ The language is currently at <strong>version 1.0.0</strong> and is licensed unde
   <li>⌨️ <strong>Interpreted language:</strong> Whitespace is not strictly enforced, and error messages are clear and informative (future versions will improve this further).</li>
   <li>🚀 <strong>Expandable:</strong> More features and libraries will be added in future releases.</li>
 </ul>
+<p><b>⚠️ Currently, there is no officially defined standard file format for C-Basic+.</b></p>
 <hr>
 
 
