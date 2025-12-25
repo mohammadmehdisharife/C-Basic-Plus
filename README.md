@@ -1,4 +1,4 @@
-# C-Basic+
+<h1>C-Basic+</h1>
 
 <div style="display: flex; align-items: center; gap: 15px;">
   <img src="./Doc/LogoCBasic.png" width="100" alt="C-Basic+ Logo">
@@ -29,3 +29,32 @@ The language is currently at <strong>version 1.0.0</strong> and is licensed unde
   <li>⌨️ <strong>Interpreted language:</strong> Whitespace is not strictly enforced, and error messages are clear and informative (future versions will improve this further).</li>
   <li>🚀 <strong>Expandable:</strong> More features and libraries will be added in future releases.</li>
 </ul>
+<hr>
+
+
+
+
+
+
+
+
+
+<pre><code class="language-cpp">
+//This is Print Text
+print("Hello World\n");
+sleep(1.0)
+print(":) " & "happy\n");
+
+system("pause");
+
+print("\a");
+print("Pess any key to Exit.");
+system("pause >nul");
+
+//You Can't Write this:
+exit();
+</code></pre>
+
+
+
+
