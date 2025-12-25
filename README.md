@@ -30,6 +30,14 @@ The language is currently at <strong>version 1.0.0</strong> and is licensed unde
   <li>🚀 <strong>Expandable:</strong> More features and libraries will be added in future releases.</li>
 </ul>
 <p><b>⚠️ Currently, there is no officially defined standard file format for C-Basic+.</b></p>
+<p>if the Code is not work in Linux, Use dos2unix for Fix</p>
+<h2>Dos2unix</h2>
+<pre><code>
+  sudo apt install dos2unix
+</code></pre>
+<pre><code>
+  dos2unix app.cbp
+</code></pre>
 <hr>
 
 
