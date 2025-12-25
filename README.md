@@ -1,2 +1,2 @@
-# C-Basic-
-=fast, cross-platform programming language
+# C-Basic+
+<img src=".\Doc\LogoCBasic.png"> 
