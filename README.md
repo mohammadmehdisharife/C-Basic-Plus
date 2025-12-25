@@ -53,13 +53,10 @@ The language is currently at <strong>version 1.0.0</strong> and is licensed unde
 print("Hello World\nThis Program Running in %os%\n");
 sleep(1.0);
 print(":) " & "happy\n");
-
 system("pause");
-
 print("\a");
 print("Pess any key to Exit.");
 system("pause >nul");
-
 //You Can't Write this:
 exit();
 </code></pre>
