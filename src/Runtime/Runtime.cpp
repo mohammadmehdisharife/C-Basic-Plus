@@ -5,12 +5,12 @@
 #include "./Error/Error.hpp"
 #include "./Syntax/Print/Print.hpp"
 using namespace std;
-namespace Compiler
+namespace Runtime
 {
     int LineCode = 1;
     string codeLine = "";
     string buffer = "";
-    void Compile(string code)
+    void Run(string code)
     {
 
         for (; LineCode <= IO::String::LineLength(code); LineCode++)

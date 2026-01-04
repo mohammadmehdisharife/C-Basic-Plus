@@ -1,6 +1,6 @@
-#include "./Compiler/IO/IO.hpp"
-#include "./Compiler/Compiler.hpp"
-#include "./Compiler/Info/Info.hpp"
+#include "./Runtime/IO/IO.hpp"
+#include "./Runtime/Runtime.hpp"
+#include "./Runtime/Info/Info.hpp"
 bool error = true;
 
 int main(int argc, char *argv[])
@@ -28,14 +28,14 @@ int main(int argc, char *argv[])
                                 IO::Display::PrintString("Error: File not found!\n");
                                 return 0;
                         }
-                        Compiler::Compile(IO::File::Read(input));
+                        Runtime::Run(IO::File::Read(input));
                 }
                 if (input == "-help")
                 {
                         error = false;
                         IO::Display::PrintString("===Switches===\n");
                         IO::Display::PrintString("-ver            \tDisplay C-Basic version\n");
-                        IO::Display::PrintString("-file <filename>\tCompile code\n");
+                        IO::Display::PrintString("-file <filename>\tRun code\n");
                 }
         }
         if (error)

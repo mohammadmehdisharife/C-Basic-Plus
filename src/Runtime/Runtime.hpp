@@ -1,8 +1,8 @@
 #pragma once
 #include <string>
 using namespace std;
-namespace Compiler{
-    void Compile(string code);
+namespace Runtime{
+    void Run(string code);
     extern int LineCode;
     extern string codeLine;
 }
