@@ -1,8 +1,8 @@
-//This is Simple Program
-print("Hello World\nThis Program Running in %os%\n");
+// This is a Simple Program
+print("Run Program on %os% Operation System\n");
+
+// The system function executes a native shell script.
+system("echo");
+
+// The sleep function temporarily stops the program.
 sleep(1.0);
-print(":) " & "happy\n");
-
-
-//You Can't Write this:
-exit();
