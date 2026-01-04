@@ -1,7 +1,7 @@
 # C-Basic+
 
 <div style="display: flex; align-items: center; gap: 15px;">
-  <img src="./Doc/LogoCBasic.png" width="100" alt="C-Basic+ Logo">
+  <img src="./LOGO/LogoCBasic.png" width="100" alt="C-Basic+ Logo">
   <h3>C-Basic+ is a programming language developed by <strong>FuSoft</strong>.</h3>
 </div>
 
