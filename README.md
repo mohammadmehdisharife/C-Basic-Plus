@@ -24,14 +24,6 @@ The language is currently at **version 1.0.0** and is licensed under the **GNU L
 
 ---
 
-## Linux Compatibility Note
-If the code does not work correctly on Linux, it may be due to Windows-style line endings (CRLF). Use `dos2unix` to convert the file format:
-
-```
-sudo apt install dos2unix
-dos2unix app.cbp
-```
-
 ## Simple Program Example
 ```
 //This is a Simple Program
